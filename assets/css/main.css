@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: rgb(244, 244, 244);
   font-size: 16px;
   font-weight: 400;
   /* font-family: 'Montserrat', sans-serif; */
@@ -768,7 +768,7 @@ hr {
   /* color: #fff; */
   overflow: hidden;
   position: relative;
-  background: #f8f9fb;
+  background: #ffffff;
 }
 
 #hero-area .contents {
@@ -849,10 +849,10 @@ hr {
 } 
 
 .bg-hero {
-  background: linear-gradient(to right, 
+  /* background: linear-gradient(to right, 
   rgba(248, 249, 251, 1) 80%,
   rgba(248, 249, 251, 0.0) 100%),
-    repeat 0;
+    repeat 0; */
 
    background-position-x: right;
    background-position-y: center;
@@ -1537,4 +1537,12 @@ textarea {
 
 .blue {
   color:#007bff !important;
+}
+
+.article p {
+  color: #444444;
+}
+.article i {
+  font-size: 0.8em;
+  font-weight: bold;
 }
