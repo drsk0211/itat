@@ -1562,7 +1562,10 @@ textarea {
   font-size: 0.8em;
 }
 .white {
-  background-color: white;
+  background-color: white !important;
+}
+.gray-bg{
+  background-color: #f8f9fb !important;
 }
 .feature-text {
   font-size: 1.4em;
@@ -1577,4 +1580,10 @@ textarea {
   
   max-width: 45px;
   margin-right: 0.8em;
+}
+.text {
+  color: rgb(61, 61, 61);
+}
+.doplata {
+  font-size: 1.1em;
 }
