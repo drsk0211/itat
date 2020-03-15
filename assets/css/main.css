@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: rgb(244, 244, 244);
+  background-color:  #f8f9fb;
   font-size: 16px;
   font-weight: 400;
   /* font-family: 'Montserrat', sans-serif; */
@@ -385,11 +385,6 @@ hr {
   font-size: 1em;
 }
 
-
-
-#clients {
-  background: #f8f9fb;
-}
 
 .client-item-wrapper {
   text-align: center;
@@ -1553,4 +1548,33 @@ textarea {
 .header {
   text-align: center;
   padding-bottom: 3em;
+}
+
+.feature i {
+  font-size: 0.8em;
+}
+
+.feature li {
+  margin-bottom: 0.3em;
+}
+
+.list i {
+  font-size: 0.8em;
+}
+.white {
+  background-color: white;
+}
+.feature-text {
+  font-size: 1.4em;
+}
+.feature-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1.2em;
+}
+.feature-icon img {
+  
+  max-width: 45px;
+  margin-right: 0.8em;
 }
