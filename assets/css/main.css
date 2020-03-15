@@ -1549,3 +1549,8 @@ textarea {
 .discription-body p {
   text-align: center;
 }
+
+.header {
+  text-align: center;
+  padding-bottom: 3em;
+}
