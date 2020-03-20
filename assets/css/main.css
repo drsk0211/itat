@@ -1575,14 +1575,15 @@ textarea {
   flex-direction: row;
   align-items: center;
   margin-bottom: 1.2em;
-  color: #007bff;
   font-weight: lighter;
   font-size: 1em;
 }
-.feature-icon img {
-  
-  max-width: 45px;
-  margin-right: 0.8em;
+.feature-icon i {
+  color: #007bff;
+  font-size: 2.4em;
+}
+.feature-icon {
+  margin-right: 10px;
 }
 .text {
   color: rgb(61, 61, 61);
