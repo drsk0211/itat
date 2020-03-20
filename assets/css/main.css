@@ -1575,6 +1575,9 @@ textarea {
   flex-direction: row;
   align-items: center;
   margin-bottom: 1.2em;
+  color: #007bff;
+  font-weight: lighter;
+  font-size: 1em;
 }
 .feature-icon img {
   
@@ -1586,4 +1589,19 @@ textarea {
 }
 .doplata {
   font-size: 1.1em;
+}
+
+.description i{
+  color: #007bff;
+  font-size: 2.5em;
+}
+.discription-icon {
+  text-align: center;
+}
+.discription-text {
+  text-align: center;
+}
+.discription-body {
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
