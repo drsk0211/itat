@@ -1548,13 +1548,19 @@ textarea {
   font-size: 0.8em;
   font-weight: bold;
 }
-.discription-body p {
+.description-body p {
   text-align: center;
+}
+
+.article-link{
+  
+
 }
 
 .header {
   text-align: center;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
+  font-size: 2.5em;
 }
 
 .feature i {
@@ -1603,13 +1609,30 @@ textarea {
   color: #007bff;
   font-size: 2.5em;
 }
-.discription-icon {
+.description-icon {
   text-align: center;
 }
-.discription-text {
+.description-text {
   text-align: center;
 }
-.discription-body {
+.description-body {
   padding-top: 5px;
   padding-bottom: 20px;
 }
+
+.calc-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: top;
+  margin-left: 20px;
+}
+.calc-checkbox input {
+	width: 17px;
+	height: 17px;
+  margin: 0 3px 0 0;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: #007bff;
+}
+
