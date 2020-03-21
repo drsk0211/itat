@@ -59,6 +59,14 @@ a a:focus {
   outline: none;
 }
 
+.hero-area-bg {
+  background-image: 
+  linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,255.3)),
+  url(/assets/img/feature/main-fon.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
 
  hero-area ul, hero-area ol {
   list-style: outside none none;
@@ -513,7 +521,7 @@ hr {
 
 
 .indigo {
-  background: transparent;
+  background: #fff;
 }
 
 .menu-bg {
@@ -763,7 +771,6 @@ hr {
   /* color: #fff; */
   overflow: hidden;
   position: relative;
-  background: #ffffff;
 }
 
 #hero-area .contents {
@@ -1583,7 +1590,7 @@ textarea {
   font-size: 2.4em;
 }
 .feature-icon {
-  margin-right: 10px;
+  margin-right: 10pxG;
 }
 .text {
   color: rgb(61, 61, 61);
