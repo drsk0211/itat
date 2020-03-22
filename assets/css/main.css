@@ -1635,4 +1635,28 @@ textarea {
   margin-top: 5px;
   color: #007bff;
 }
+.material-list li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+.material-list a {
+  color: #525252;
+}
+.material-link {
+  text-decoration: underline;
+}
+.thin {
+  font-weight: 400 !important;
 
+}
+.smeta i {
+  color: #000000;
+  font-weight: 400;
+}
+
+.bg-img1 {
+  background-image: url(/assets/img/smeta/grand_smeta.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
