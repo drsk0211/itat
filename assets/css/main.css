@@ -1660,3 +1660,18 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%;
+}
+
+.bg-img2 {
+  background-image: url(/assets/img/smeta/smeta2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.bg-img3 {
+  background-image: url(/assets/img/smeta/smeta3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
