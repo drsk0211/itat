@@ -6,7 +6,7 @@ html {
 body {
   background-color:  #f8f9fb;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Roboto', sans-serif;
   -webkit-box-sizing: border-box;
@@ -61,7 +61,7 @@ a a:focus {
 
 .hero-area-bg {
   background-image: 
-  linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,255.3)),
+  linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
   url(/assets/img/feature/main-fon.jpg);
  background-size: 100%;
  background-repeat: no-repeat;
@@ -1635,6 +1635,16 @@ textarea {
   margin-top: 5px;
   color: #007bff;
 }
+
+.calc-head {
+  display: flex;
+  align-items: flex-end;
+}
+.calc-price__price {
+  line-height: 1.3;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
 .material-list li {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -1645,7 +1655,7 @@ textarea {
 }
 
 .thin {
-  font-weight: 400 !important;
+  font-weight: 200 !important;
 
 }
 .smeta i {
@@ -1680,6 +1690,10 @@ textarea {
 .supp {
   color: #FFFFFF;
   background-image: linear-gradient(rgb(33, 101, 215) 8%, rgb(67, 133, 243) 100%);
+  position: relative;
+  bottom: -70px;
+  padding: 10px, 0px, 10px, 0px;
+  font-weight: 200 !important;
 }
 .gradient {
   background: linear-gradient(to right, rgba(101, 150, 231, 0.1) 0%, rgba(101, 150, 231, 1) 10%, rgba(101, 150, 231, 1) 11%, rgba(101, 150, 231, 1) 29%, rgba(101, 150, 231, 1) 68%, rgba(101, 150, 231, 1) 90%, rgba(101, 150, 231, 0.1) 100%);
@@ -1689,4 +1703,23 @@ textarea {
   font-size: 1.1em;
   font-weight: 100;
   text-align: center;
+}
+
+.supp-bg {
+  background-image:
+  linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
+   url(/assets/img/feature/img-1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.work {
+  padding-top: 70px;
+  color: #525252;
+}
+
+.work h2 {
+  font-size: 1.6em;
+  color: #525252;
 }
