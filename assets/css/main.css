@@ -1643,9 +1643,7 @@ textarea {
 .material-list a {
   color: #525252;
 }
-.material-link {
-  text-decoration: underline;
-}
+
 .thin {
   font-weight: 400 !important;
 
@@ -1674,4 +1672,7 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60%;
+}
+.material-link i {
+  font-size: 0.8em;
 }
