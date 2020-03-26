@@ -61,7 +61,7 @@ a a:focus {
 
 .hero-area-bg {
   background-image: 
-  linear-gradient(to left, rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
+  linear-gradient(to left, rgba(255,255,255,0.3), rgb(255, 255, 255)),
   url(/assets/img/feature/main-fon.jpg);
  background-size: 100%;
  background-repeat: no-repeat;
@@ -1552,11 +1552,6 @@ textarea {
   text-align: center;
 }
 
-.article-link{
-  
-
-}
-
 .header {
   text-align: center;
   padding-bottom: 1em;
@@ -1722,4 +1717,58 @@ textarea {
 .work h2 {
   font-size: 1.6em;
   color: #525252;
+}
+
+.button {
+  width: 100%;
+  background-color: #31a754;
+  color: #fff;
+  text-align: center;
+  padding: 14px 15px 11px 15px;
+}
+
+.button-text {
+  color: #fff;
+  font-weight: 100!important;
+  font-size: 1.5em;
+  line-height: 1;
+  
+}
+
+.button:hover {
+  background-color: #3cd169;
+  
+}
+
+.collage-1 {
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.collage-3 {
+  background-color: #4385f3;
+  max-width: 303px;
+  width: 100%;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 16px;
+}
+.collage-3 p {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.collage {
+  display: flex;
+  flex-direction: row;
+}
+
+.small {
+ padding: 0px;
+ margin: 0px;
 }
