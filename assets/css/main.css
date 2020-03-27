@@ -3,12 +3,17 @@ html {
   overflow-x: hidden;
 }
 
+@font-face{
+  font-family: Helvetica Grumov;
+  src: url(/assets/fonts/17874.ttf);
+}
+
 body {
   background-color:  #f8f9fb;
   font-size: 16px;
   font-weight: 300;
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica Grumov';
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -23,7 +28,7 @@ body {
 h1, h2, h3, h4 {
   color: #242424;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica Grumov';
 }
 
 h1, h2 {
@@ -1712,6 +1717,7 @@ textarea {
 .work {
   padding-top: 70px;
   color: #525252;
+  line-height: 1;
 }
 
 .work h2 {
@@ -1740,6 +1746,10 @@ textarea {
   
 }
 
+.button a:hover {
+  color: #fff;
+}
+
 .collage-1 {
   max-width: 960px;
   display: flex;
@@ -1763,6 +1773,11 @@ textarea {
   line-height: 1.4;
 }
 
+.collage-4 {
+  display: flex;
+  flex-direction: column;
+}
+
 .collage {
   display: flex;
   flex-direction: row;
@@ -1771,4 +1786,27 @@ textarea {
 .small {
  padding: 0px;
  margin: 0px;
+ display: table-cell;
+}
+
+.row-1 {
+  display: table-row;
+}
+.row-2 {
+  display: table-row;
+}
+
+.sub {
+  background-color: #4385f3;
+  font-size: 2.3em;
+  text-align: center;
+  
+  padding-top: 19px;
+  padding-bottom: 24px;
+  
+}
+
+.sub a {
+  color: #fff;
+  font-weight: 100;
 }
