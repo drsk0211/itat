@@ -4,6 +4,11 @@ html {
 }
 
 @font-face{
+  font-family: Open Sans Light;
+  src: url(/assets/fonts/ofont.ru_Open\ Sans.ttf);
+}
+
+@font-face{
   font-family: Helvetica Grumov;
   src: url(/assets/fonts/17874.ttf);
 }
@@ -13,7 +18,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Helvetica Grumov';
+  font-family: 'Open Sans Light';
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -1655,7 +1660,7 @@ textarea {
 }
 
 .thin {
-  font-weight: 200 !important;
+  font-weight: 500 !important;
 
 }
 .smeta i {
@@ -1725,6 +1730,20 @@ textarea {
   color: #525252;
 }
 
+.work-item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.strelka {
+  margin-bottom: 22%;
+}
+
+.strelka I {
+  font-size: 3em;
+}
+
 .button {
   width: 100%;
   background-color: #31a754;
@@ -1784,9 +1803,21 @@ textarea {
 }
 
 .small {
- padding: 0px;
+position: relative;
+padding: 0px;
  margin: 0px;
  display: table-cell;
+}
+
+.small::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.274);  
+  z-index: 99999;
 }
 
 .row-1 {
