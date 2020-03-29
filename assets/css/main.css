@@ -1731,9 +1731,29 @@ textarea {
 }
 
 .work-item {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+  
+}
+
+.work-item img  {
+  z-index: 111;
+  
+  
+  
+}
+
+.strelka-1 {
+  margin-bottom: -140px;
+  margin-right: -300px;
+}
+
+.strelka-2 {
+  margin-bottom: -130px;
+  margin-right: -300px;
+}
+
+.strelka-3 {
+  margin-bottom: -100px;
+  margin-right: -300px;
 }
 
 .strelka {
