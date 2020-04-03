@@ -112,7 +112,7 @@
 
   #hero-area .contents p, 
   #hero-area .contents li {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
   }
   
   
@@ -157,5 +157,12 @@
   }
   .contact-form-area h2 {
     font-size: 14px;
+  }
+  .sub {
+    font-size: 1.7rem;
+  }
+  .collage-3 p {
+    font-size: 0.9rem;
+    line-height: 1;
   }
 }

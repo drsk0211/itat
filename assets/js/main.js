@@ -32,6 +32,7 @@
         prependTo: '.navbar-header',
         parentTag: 'liner',
         allowParentLinks: true,
+        closeOnClick: true,
         duplicate: true,
         label: '',
         closedSymbol: '<i class="lni-chevron-right"></i>',

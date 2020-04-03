@@ -52,7 +52,7 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navbar"
             aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
             <span class="navbar-toggler-icon"></span>
             <span class="icon-menu"></span>
@@ -67,18 +67,18 @@
           <!-- <a href="index.html" class="navbar-brand"><img src="assets/img/logo.jpg" alt=""></a> -->
         </div>
 
-        <div class="collapse navbar-collapse " id="main-navbar" style="flex-grow:0;">
+        <div class="collapse navbar-collapse" id="main-navbar" style="flex-grow:0;">
           <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix  float-right">
-            <li class="nav-item active">
+            <!-- <li class="nav-item active">
               <a class="nav-link" href="#hero-area">
                 <i class="lni-home"></i>
               </a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#feature">
-                Возможности
-              </a>
             </li> -->
+             <li class="nav-item">
+              <a class="nav-link" href="#calculator">
+                Купить
+              </a>
+            </li> 
             <li class="nav-item">
               <a class="nav-link" href="#calculator">
                 Цены
@@ -91,7 +91,7 @@
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">
+              <a class="nav-link" href="#support">
                 Поддержка 
               </a>
             </li>
@@ -111,27 +111,31 @@
       </div>
 
       <!-- Mobile Menu Start -->
-      <ul class="mobile-menu navbar-nav">
+      <ul id="mobile-navbar" class="mobile-menu navbar-nav" >
 
-        <li>
-          <a class="page-scroll" href="#feature">
-            Возможности
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="#calculator" onclick="">
+            Купить
+          </a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="#calculator">
+            Цены
           </a>
         </li>
-
-        <li>
-          <a class="page-scroll" href="#team">
-            Отзывы клиентов
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="#testimonial">
+            Отзывы
           </a>
         </li>
-
-        <li>
-          <a class="page-scroll" href="#contact">
-            Попробовать
+        
+        <li class="nav-item">
+          <a class="nav-link page-scroll" href="#support">
+            Поддержка 
           </a>
         </li>
         <li>
-          <a id="Phone" class="page-scroll" href="tel:+79027180602"
+          <a id="Phone" class="" href="tel:+79027180602"
             onclick="ym(61606258, 'reachGoal', 'Phone'); return true;">+7 902 718 06 02</a>
         </li>
       </ul>
@@ -186,12 +190,12 @@
 
               <div class="w-100 text-center" style="display: inline-block;">
                 <div class="header-button " data-wow-delay="0.4s">
-                  <a href="#" id="RequestBill" class="btn btn-success" data-toggle="modal" data-target="#requestModal"
+                  <a href="#" id="RequestBill" class="btn btn-success page-scroll" data-toggle="modal" data-target="#requestModal"
                     data-whatever="@getbootstrap" onclick="request_form_yandex();">
                     ЗАКАЗАТЬ </a>
                 </div>
                 <div class="header-button ml-3" data-wow-delay="0.4s">
-                  <a href="#calculator" class="btn btn-common ">
+                  <a href="#calculator" class="btn btn-common page-scroll ">
                     &nbsp;&nbsp;&nbsp; ЦЕНЫ &nbsp;&nbsp;&nbsp;</a>
                 </div>
               </div>
@@ -753,7 +757,7 @@
 
 
 
-  <section class="pt-5">
+  <section class="pt-5" id="support">
       <div class="section-header text-center">
         <h2 class="section-title wow fadeInDown pb-3" data-wow-delay="0.1s">Отзывчивая поддержка</h2> 
       </div>
