@@ -1953,3 +1953,23 @@ padding: 0px;
   color: #fff;
   font-weight: 100;
 }
+
+
+.price-check-box {
+	/* content: "\2713"; */
+	/* text-shadow: 1px 1px 1px rgba(0, 0, 0, .5); */
+	font-size: 1.2rem;
+	text-align: center;
+    line-height: 15px;
+    color: transparent;
+    border-radius: 3px;
+    padding: 0px 3px;
+    border-width: thin;
+    border-style: solid;
+    border-color: rgb(189, 189, 189);
+}
+
+#calc-table > tbody > tr.strong > td.text-center > span.price-check-box {
+	color: #414141;
+}
+

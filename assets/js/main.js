@@ -16,7 +16,7 @@
         } else {
             $('.scrolling-navbar').removeClass('top-nav-collapse');
         }
-        // Yandex –ø–æ–ø—ã—Ç–∞—Ç—å—Å—è —É–¥–∞–ª–∏—Ç—å
+        // Yandex ÔÓÔ˚Ú‡Ú¸Òˇ Û‰‡ÎËÚ¸
         $(".footer_view_iframe").hide();
         
     });
@@ -139,7 +139,7 @@
           e.preventDefault();
       });
 
-      // ÔøΩÔøΩÔøΩÔøΩ ÔøΩÔøΩÔøΩ SEO ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+      // òòòò òòò SEO òòòòòòò
       $('[href^="https://www.i-tat.ru/prostaya_smeta/index.html"]').on('click', function(){
         ym(57491743, 'reachGoal', 'fromSeoPages'); 
         return true;
@@ -163,7 +163,7 @@
 
 
   
-  // <!--  –ö–ê–õ–¨–ö–£–õ–Ø–¢–û–†  -->
+  // <!--   ¿À‹ ”Àﬂ“Œ–  -->
   
   function changeChecked(id){
     if ($("#"+id).hasClass('lgray')) {
@@ -193,14 +193,14 @@
     return x1 + x2;
   }
 
-  var total = 26000;
-  document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ')+"—Ä.";
+  var total = 27000;
+  document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ')+".";
 
   
 
 
   function calculate() {
-    total=26000;
+    total=27000;
     if (!$("#cv2").hasClass('lgray')) {
       total += parseInt($("#cv2").data('value'));
     }
@@ -215,6 +215,9 @@
     } 
     if (!$("#cv6").hasClass('lgray')) {
       total += parseInt($("#cv6").data('value'));
+    } 
+    if (!$("#cv61").hasClass('lgray')) {
+      total += parseInt($("#cv61").data('value'));
     } 
     if (!$("#cv7").hasClass('lgray')) {
       total += parseInt($("#cv7").data('value'));
@@ -226,48 +229,52 @@
      
     
     //alert(total);
-    document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + "—Ä.";
+    document.getElementById('Totalcost').innerHTML = number_format(total, 0, '.', ' ') + ".";
   }
 
-  {/* /–ö–ê–õ–¨–ö–£–õ–Ø–¢–û–†  */}
+  {/* / ¿À‹ ”Àﬂ“Œ–  */}
 
 
   
 function request_form_yandex() {
   
-  total=26000;
-  var tx = '- 26 000 –ü—Ä–æ—Ñ –ë–∞–∑–æ–≤—ã–π; '+"\n";
+  total=27000;
+  var tx = '? 27 000 œÓÙ ¡‡ÁÓ‚˚È; '+"\n";
     if (!$("#cv2").hasClass('lgray')) {
       total += parseInt($("#cv2").data('value'));
-      tx += "- "+ $("#cv2").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv2").parent().parent().text().replace(/\s+/g, " ")+"\n";
     }
     if (!$("#cv3").hasClass('lgray')) {
       total += parseInt($("#cv3").data('value'));
-      tx += "- "+ $("#cv3").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv3").parent().parent().text().replace(/\s+/g, " ")+"\n";
     } 
     if (!$("#cv4").hasClass('lgray')) {
       total += parseInt($("#cv4").data('value'));
-      tx += "- "+ $("#cv4").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv4").parent().parent().text().replace(/\s+/g, " ")+"\n";
     } 
     if (!$("#cv5").hasClass('lgray')) {
       total += parseInt($("#cv5").data('value'));
-      tx += "- "+ $("#cv5").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv5").parent().parent().text().replace(/\s+/g, " ")+"\n";
     } 
     if (!$("#cv6").hasClass('lgray')) {
       total += parseInt($("#cv6").data('value'));
-      tx += "- "+ $("#cv6").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv6").parent().parent().text().replace(/\s+/g, " ")+"\n";
+    } 
+    if (!$("#cv61").hasClass('lgray')) {
+      total += parseInt($("#cv61").data('value'));
+      tx += ""+ $("#cv61").parent().parent().text().replace(/\s+/g, " ")+"\n";
     } 
     if (!$("#cv7").hasClass('lgray')) {
       total += parseInt($("#cv7").data('value'));
-      tx += "- "+ $("#cv7").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv7").parent().parent().text().replace(/\s+/g, " ")+"\n";
     } 
     if (!$("#cv8").hasClass('lgray')) {
       total += parseInt($("#cv8").data('value'));
-      tx += "- "+ $("#cv8").parent().parent().text().replace(/\s+/g, " ")+"\n";
+      tx += ""+ $("#cv8").parent().parent().text().replace(/\s+/g, " ")+"\n";
     } 
  
   pars="";
-  tx = tx + " –ò–¢–û–ì–û: "+ total;
+  tx = tx + " »“Œ√Œ: "+ total;
 
   if(tx != ''){ pars = '&answer_long_text_2038384='+ encodeURIComponent(tx); }
   
