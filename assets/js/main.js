@@ -239,7 +239,7 @@
 function request_form_yandex() {
   
   total=27000;
-  var tx = '? 27 000 Проф Базовый; '+"\n";
+  var tx = '  27 000 Проф Базовый; '+"\n";
     if (!$("#cv2").hasClass('lgray')) {
       total += parseInt($("#cv2").data('value'));
       tx += ""+ $("#cv2").parent().parent().text().replace(/\s+/g, " ")+"\n";
